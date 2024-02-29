@@ -6,6 +6,7 @@ A program egy egyszerű akasztófa. Mivel nem volt részletezve, milyen programo
 A program [Konstantinusz magyar-szavak.txt](https://gist.github.com/Konstantinusz/f9517357e46fa827c3736031ac8d01c7) fájlját használja fel egészében a szavak.txt formájában.
 
 # Funkciók:
+Kellően átláthatatlan ✅\
 Időmérés ✅\
 Funkciók definiálása és hívása ✅\
 Listák/vektorok ✅\
