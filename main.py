@@ -91,7 +91,7 @@ def main():
     szamok_db = ["egyet", "kettőt", "hármat", "négyet", "ötöt", "hatot", "hetet", "nyolcat", "kilencet"]
     with open("szavak.txt", "r") as fajl:
         szavak_db = fajl.read().splitlines()
-    valasztott = random.choice(szavak_db)
+    valasztott = random.choice(szavak_db).lower()
     szavak_db.clear()
     hossz = len(valasztott)
     i = 0
