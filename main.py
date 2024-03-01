@@ -18,7 +18,7 @@ def action(valasztott, lehetosegek, ismert_string, szamok_db):
         if len(tipp) != 1 or not tipp.isalpha():
             print("Valami nem stimmel, egy betű kellene!\n")
             continue
-        clear()
+        # clear() végül nem működik
         
         tippelt_betuk.append(tipp)
         if tipp in valasztott:
@@ -53,15 +53,12 @@ def action(valasztott, lehetosegek, ismert_string, szamok_db):
             if (t / 86400) > 1:
                 ido_str += f"{t/86400} nap "
                 t -= 86400
-                break
             if (t / 3600) > 1:
                 ido_str += f"{t/3600} óra "
                 t -= 3600
-                break
             if (t / 60) > 1:
-                ido_str += f"{t/3600} perc "
-                t -= 3600
-                break
+                ido_str += f"{t/60} perc "
+                t -= 60
             ido_str += f"{t} másodperc"
             print(f"\n\nEltelt idő: {ido_str}")
             print("Gratulálok, eltaláltad!")
@@ -73,15 +70,12 @@ def action(valasztott, lehetosegek, ismert_string, szamok_db):
             if (t / 86400) > 1:
                 ido_str += f"{t/86400} nap "
                 t -= 86400
-                break
             if (t / 3600) > 1:
                 ido_str += f"{t/3600} óra "
                 t -= 3600
-                break
             if (t / 60) > 1:
-                ido_str += f"{t/3600} perc "
-                t -= 3600
-                break
+                ido_str += f"{t/60} perc "
+                t -= 60
             ido_str += f"{t} másodperc"
             print(f"\n\nEltelt idő: {ido_str}")
             print(f"Elfogytak a lehetőségeid. A szó {valasztott} volt")
