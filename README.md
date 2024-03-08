@@ -15,7 +15,6 @@ Listák/vektorok/tömbök ✅\
 Alapvető String metódusok ✅\
 Időmérés ✅\
 Matemaikai műveletek ✅\
-Konzol sorok speciális kezelése ✅\
 A konzol törlés funkció működésében nem vagyok egészen biztos, világéletemben dotnetben programoztam.
 
 Remélem megfelelő tudást tükröz ez az órás projektem, ellenkezpő esetben kérem szóljon!
